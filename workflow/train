@@ -1,0 +1,11 @@
+name :help to wbg 
+on:workflow dispatch 
+jobs:
+  build:
+    runs-on: ubuntu-latet 
+    steps:
+    -name :print raj 
+    run: echo "git plus two"
+    name: print multiple line 
+    run : echo "step1"
+      echo "test1"
